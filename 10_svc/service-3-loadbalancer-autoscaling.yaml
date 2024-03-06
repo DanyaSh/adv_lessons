@@ -61,3 +61,4 @@ spec:
       protocol  : TCP
       port      : 80 # Port on Load Balancer
       targetPort: 80 # Port on pod
+  type: LoadBalancer
